@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirate Clicker - Jeu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Pirate Clicker</h1>
+    <p><a href="index.html" class="btn">Accueil</a></p>
+    <div id="stats">
+        <p>Or : <span id="gold">0</span></p>
+        <p>Or par clic : <span id="gpc">1</span></p>
+        <p>Niveau du boss : <span id="boss-level">1</span></p>
+        <p>Vie du boss : <span id="boss-hp">100</span></p>
+    </div>
+    <div id="chest" onclick="clickChest()">
+        <img src="https://cdn.pixabay.com/photo/2012/04/01/17/29/treasure-chest-23466_1280.png" alt="Coffre au trésor">
+    </div>
+    <div id="store">
+        <h2>Boutique</h2>
+        <button onclick="buyItem(10,1)">Perroquet (10 or) +1 or/clic</button>
+        <button onclick="buyItem(50,5)">Équipage (50 or) +5 or/clic</button>
+        <button onclick="buyItem(200,20)">Canon (200 or) +20 or/clic</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
