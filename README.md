@@ -14,3 +14,7 @@ Ce dépôt contient un mini site web proposant un jeu de type "clicker" sur le t
 Ouvrez simplement `index.html` dans votre navigateur pour accéder au site puis cliquez sur **Jouer**.
 
 Pendant la partie, cliquez sur le coffre pour gagner de l'or, achetez des améliorations et battez les boss qui deviennent de plus en plus résistants.
+
+## Scripts Unity
+
+- `UnityScripts/EnemyPlayerBehaviour.cs` : exemple de script C# pour donner à un ennemi un comportement similaire à celui d'un joueur (suivi, saut aléatoire et attaque).
